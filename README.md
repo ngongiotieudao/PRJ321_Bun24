@@ -1,10 +1,12 @@
 clone project về máy
 git clone https://github.com/ngongiotieudao/PRJ321_Bun24
 
-để upload 1 project lên github
-b1 tạo new repository trên github > copy link về
-b2
+để upload 1 project lên github:
+b1 tạo new repository trên github > copy link về.
+
+b2:
 mở git gui hoặc terminal
+
 git init
 git add . //để add tất cả file lên git
 git status 
