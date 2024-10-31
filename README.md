@@ -19,7 +19,7 @@ git branch -M main //main là branch. trong dự án có thể có nhiều branc
 
 git remote add origin <link_repo>
 
-git push -u origin main //nếu không được thì git push -fetch -u origin main //push code lên github ở nhánh(branch) main
+git push -u origin main //nếu không được thì git push -f -u origin main //push code lên github ở nhánh(branch) main
 
 
 --để lấy code mới cập nhật về local
