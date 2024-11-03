@@ -10,5 +10,5 @@ package constant;
  */
 public class Constant {
     
-    public static final int RECORD_PER_PAGE = 6;
+    public static final int RECORD_PER_PAGE = 3;
 }

@@ -10,13 +10,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Login</title>
-     <style>
-        .search-container {
-            display: flex;
-            justify-content: flex-end; /* Đẩy nội dung sang bên phải */
-            margin: 20px; /* Thêm khoảng cách */
-        }
-    </style>
     <style>
         * {
             margin: 0;

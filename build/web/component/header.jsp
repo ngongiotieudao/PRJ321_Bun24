@@ -21,16 +21,34 @@
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="home">Home</a></li>                  
-                            <c:if test ="${empty sessionScope.account}">
+
+                        <c:if test="${empty sessionScope.account}">
                             <li class="nav-item"><a class="nav-link" href="login">Login</a></li>
                             </c:if>
-                            <c:if test ="${not empty sessionScope.account}">
+
+                        <c:if test="${not empty sessionScope.account}">
                             <li class="nav-item"><a class="nav-link" href="logout">Logout</a></li>
-                            </c:if>
-                            <c:if test ="${sessionScope.account.role eq'ADMIN'}">
-                            <li class="nav-item"><a class="nav-link" href="manageProduct">Manage System</a></li>
+
+                            <c:if test="${sessionScope.account.role eq 'ADMIN'}">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Admin Actions
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="adminDropdown">
+                                        <a class="dropdown-item" href="manageOrder">Manage Order</a>
+                                        <a class="dropdown-item" href="manageRole">Manage Role</a>
+                                        <a class="dropdown-item" href="manageProduct">Manage All Products</a>
+                                    </div>
+                                </li>
                             </c:if>
 
+                            <li class="nav-item">
+                                <form action="manageMyProduct" method="POST" style="display: inline;">
+                                    <input type="hidden" name="userId" value="${sessionScope.account.userId}" />
+                                    <button class="btn btn-link nav-link" type="submit">Manage My Product</button>
+                                </form>
+                            </li>
+                        </c:if>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item"><a href="viewCart" class="cart"><span class="ti-bag"></span></a></li>
