@@ -9,14 +9,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="eng" class="no-js">
-    <style>
-        .search-container {
-            display: flex;
-            justify-content: flex-end; /* Đẩy nội dung sang bên phải */
-        }
-    </style>
+
     <head>
-        
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Favicon-->
@@ -81,7 +75,7 @@
                             <c:forEach items="${listProduct}" var="listProduct">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="single-product">
-                                        <img style ="weight: 100px; height: 300px " class="img-fluid" src="${listProduct.imageUrl}" alt="">
+                                        <img class="img-fluid" src="${listProduct.imageUrl}" alt="">
                                         <div class="product-details">
                                             <h6>${listProduct.name}</h6>
                                             <div class="price">
@@ -93,8 +87,7 @@
                                                 <a href="addToCart?productId=${listProduct.productId}" class="social-info">
                                                     <span class="ti-bag"></span>
                                                     <p class="hover-text">add to bag</p>
-                                                </a>
-                                                            
+                                                </a>                                              
                                                     <a href="viewProduct?productId=${listProduct.productId}" class="social-info">
                                                         <span class="lnr lnr-move"></span>
                                                         <p class="hover-text">view more</p>

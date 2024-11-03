@@ -17,7 +17,7 @@ public class DBContext {
     public DBContext() {
         try {
             String user = "sa";
-            String pass = "sa";
+            String pass = "Q@z12345";
             // Updated URL to include SSL parameters
             String url = "jdbc:sqlserver://localhost:1433;databaseName=EbayFake;encrypt=true;trustServerCertificate=true;";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");

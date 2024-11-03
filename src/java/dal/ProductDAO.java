@@ -355,11 +355,46 @@ public class ProductDAO {
         return category;
     }
 
-//    public static void main(String[] args) {
-//        ProductDAO p = new ProductDAO();
-//        List<Products> list = p.FindAuctionProductByPage(1, false);
-//        for (Products o : list) {
-//            System.out.println(o);
-//        }
-//    }
+    public List<Products> findProductByUserId(int userId) {
+        List<Products> userProducts = new ArrayList<>();
+        String sql = "SELECT p.productId, p.[name], p.[description], p.price, p.stock,\n"
+                + "p.[status], p.imageUrl, p.createdAt, u.userId, u.fullName,\n"
+                + "c.categoryId, c.categoryName FROM Products p\n"
+                + "JOIN Users u ON p.userId = u.userId\n"
+                + "JOIN Categories c ON p.categoryId = c.categoryId\n"
+                + "WHERE u.userId = ?";
+
+        try (Connection connection = new DBContext().connection) {
+            ps = connection.prepareStatement(sql);
+            ps.setInt(1, userId);
+            rs = ps.executeQuery();
+
+            while (rs.next()) {
+                Products product = extractProductFromResultSet(rs);
+                userProducts.add(product);
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return userProducts;
+    }
+
+    public static void main(String[] args) {
+    ProductDAO productDAO = new ProductDAO();
+
+    // Test findProductByUserId
+    int testUserId = 1; // Replace with an existing user ID to test
+    System.out.println("Testing findProductByUserId with user ID: " + testUserId);
+
+    List<Products> products = productDAO.findProductByUserId(testUserId);
+    if (products.isEmpty()) {
+        System.out.println("No products found for user ID: " + testUserId);
+    } else {
+        System.out.println("Products for user ID " + testUserId + ":");
+        for (Products product : products) {
+            System.out.println(product);
+        }
+    }
+}
+
 }
