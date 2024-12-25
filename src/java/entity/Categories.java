@@ -12,7 +12,7 @@ public class Categories {
     private int categoryId;
     private String categoryName;
     private Timestamp createdAt;
-
+int a = 1;
     public Categories() {
     }
 

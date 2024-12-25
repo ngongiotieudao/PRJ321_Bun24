@@ -16,7 +16,7 @@ public class OrderDetails {
     private Products products;
     private int quantity;
     private BigDecimal price;
-
+int b = 6;
     public OrderDetails() {
     }
 
