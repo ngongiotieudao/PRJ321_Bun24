@@ -18,7 +18,6 @@ public class CategoryDAO {
     private PreparedStatement ps;
     private ResultSet rs;
     private List<Categories> listCategory;
-	int c = 5;
     public CategoryDAO() {
         listCategory = new ArrayList<>();
     }

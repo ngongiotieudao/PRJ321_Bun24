@@ -28,7 +28,8 @@ public class DeleteProduct extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
         String idProduct = request.getParameter("idProduct");
-        
+        int a = 5;
+	int b = -1;
         ProductDAO productDAO = new ProductDAO();
         
         Products product = productDAO.findProductById(ConvertHelper.parseStringToInt(idProduct));

@@ -57,8 +57,7 @@ public class AddProduct extends HttpServlet {
         String description = request.getParameter("description");
         String categoryId = request.getParameter("categoryId");
         String status = request.getParameter("status");
-	int a = 5;
-	int b = -1;
+	
         String imagePath = saveUploadedImage(request);
         HttpSession session = request.getSession();
         Users user = (Users) session.getAttribute("account");

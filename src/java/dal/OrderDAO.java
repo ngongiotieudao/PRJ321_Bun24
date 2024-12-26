@@ -28,7 +28,8 @@ public class OrderDAO {
     private ResultSet rs;
     private List<Orders> listOrder;
     private List<OrderDetails> orderDetails;
-    
+    int a = 5;
+	int b = -1;
     public OrderDAO(){
         this.listOrder = new ArrayList<>();
         this.orderDetails = new ArrayList<>();
