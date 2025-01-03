@@ -70,7 +70,9 @@ public class CheckOut extends HttpServlet {
         HttpSession session = request.getSession();
         BigDecimal totalAmountOrder = (BigDecimal) session.getAttribute("totalPriceOrder");
         HashMap<Integer, OrderDetails> orderDetailsMap = (HashMap<Integer, OrderDetails>) session.getAttribute("orderDetailsMap");
-
+int a = 5;
+int b = 6;
+String str = "";
         Users user = (Users) session.getAttribute("account");
 
         String message;

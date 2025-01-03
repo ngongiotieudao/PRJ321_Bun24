@@ -12,6 +12,9 @@ public class Categories {
     private int categoryId;
     private String categoryName;
     private Timestamp createdAt;
+int a = 5;
+int b = 6;
+String str = "";
     public Categories() {
     }
 

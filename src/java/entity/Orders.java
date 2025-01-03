@@ -16,7 +16,9 @@ public class Orders {
     private BigDecimal totalAmount;
     private Timestamp orderDate;
     private String status;
-
+int a = 5;
+int b = 6;
+String str = "";
     public Orders() {
     }
 

@@ -27,6 +27,9 @@ public class ManageOrder extends HttpServlet {
         OrderDAO orderDao = new OrderDAO();
         List<Orders> orders = orderDao.findAll();
         
+int a = 5;
+int b = 6;
+String str = "";
         request.setAttribute("orders", orders);
         request.getRequestDispatcher("manage-order.jsp").forward(request, response);
     }

@@ -14,7 +14,9 @@ import java.util.List;
  * @author admin
  */
 public class CategoryDAO {
-
+int a = 5;
+int b = 6;
+String str = "";
     private PreparedStatement ps;
     private ResultSet rs;
     private List<Categories> listCategory;
