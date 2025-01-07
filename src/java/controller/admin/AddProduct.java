@@ -44,9 +44,7 @@ public class AddProduct extends HttpServlet {
         CategoryDAO categoryDAO = new CategoryDAO();
         List<Categories> categories = categoryDAO.findAll();
 
-int a = 5;
-int b = 6;
-String str = "";
+
         request.setAttribute("categories", categories);
         request.getRequestDispatcher("add-product.jsp").forward(request, response);
     }
