@@ -36,7 +36,30 @@ import utils.ConvertHelper;
         maxFileSize = 1024 * 1024 * 10, // 10MB
         maxRequestSize = 1024 * 1024 * 50)   // 50MB
 public class UpdateProduct extends HttpServlet {
-
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

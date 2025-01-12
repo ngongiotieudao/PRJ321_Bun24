@@ -22,7 +22,30 @@ import java.util.List;
 @WebServlet(name="ManageProduct", urlPatterns={"/manageProduct"})
 public class ManageProduct extends HttpServlet {
    
-    
+    int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
+int a = 5;
+int b = 6;
+String str = "";
 
     
     @Override
