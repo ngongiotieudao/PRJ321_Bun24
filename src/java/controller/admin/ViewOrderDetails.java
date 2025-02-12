@@ -48,3 +48,184 @@ public class ViewOrderDetails extends HttpServlet {
     }// </editor-fold>
 
 }
+@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }@Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String orderId = request.getParameter("orderId");
+        OrderDAO orderDAO = new OrderDAO();
+        List<OrderDetails> orderDetails =  orderDAO.findAllOrderDetailsByOrderId(ConvertHelper.parseStringToInt(orderId));
+        
+        request.setAttribute("orderDetails", orderDetails);
+        
+        request.getRequestDispatcher("order-details.jsp").forward(request, response);
+        
+        
+    }

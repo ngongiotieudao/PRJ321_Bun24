@@ -28,36 +28,7 @@ public class OrderDAO {
     private ResultSet rs;
     private List<Orders> listOrder;
     private List<OrderDetails> orderDetails;
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
-int a = 5;
-int b = 6;
-String str = "";
+
 int a = 5;
 int b = 6;
 String str = "";
@@ -270,3 +241,79 @@ String str = "";
         return orderDetails;
     }
 }
+} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }} catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        return orderDetails;
+    }
